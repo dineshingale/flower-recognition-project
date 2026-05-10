@@ -1,0 +1,31 @@
+WARNING:tensorflow:TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+Epoch 1/20
+[1m92/92[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m77s[0m 805ms/step - accuracy: 0.5000 - loss: 1.3210 - val_accuracy: 0.2439 - val_loss: 2.0938
+Epoch 2/20
+[1m92/92[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m73s[0m 793ms/step - accuracy: 0.6196 - loss: 1.0034 - val_accuracy: 0.3106 - val_loss: 1.9186
+Epoch 3/20
+[1m92/92[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m73s[0m 792ms/step - accuracy: 0.7054 - loss: 0.7963 - val_accuracy: 0.3283 - val_loss: 1.8753
+Epoch 4/20
+[1m92/92[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m75s[0m 809ms/step - accuracy: 0.7520 - loss: 0.6583 - val_accuracy: 0.5054 - val_loss: 1.2582
+Epoch 5/20
+[1m92/92[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m75s[0m 814ms/step - accuracy: 0.8052 - loss: 0.5102 - val_accuracy: 0.5463 - val_loss: 1.1962
+Epoch 6/20
+[1m92/92[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m135s[0m 1s/step - accuracy: 0.8689 - loss: 0.3835 - val_accuracy: 0.5995 - val_loss: 1.1174
+Epoch 7/20
+[1m92/92[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m75s[0m 816ms/step - accuracy: 0.9060 - loss: 0.2885 - val_accuracy: 0.6322 - val_loss: 1.1022
+Epoch 8/20
+[1m92/92[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m74s[0m 799ms/step - accuracy: 0.9370 - loss: 0.2166 - val_accuracy: 0.6362 - val_loss: 1.1591
+Epoch 9/20
+[1m92/92[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m74s[0m 799ms/step - accuracy: 0.9612 - loss: 0.1535 - val_accuracy: 0.5913 - val_loss: 1.4584
+Epoch 10/20
+[1m92/92[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m74s[0m 803ms/step - accuracy: 0.9653 - loss: 0.1250 - val_accuracy: 0.6526 - val_loss: 1.0974
+Epoch 11/20
+[1m92/92[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m74s[0m 800ms/step - accuracy: 0.9676 - loss: 0.1126 - val_accuracy: 0.6608 - val_loss: 1.0040
+Epoch 12/20
+[1m92/92[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m74s[0m 799ms/step - accuracy: 0.9802 - loss: 0.0856 - val_accuracy: 0.5668 - val_loss: 1.7312
+Epoch 13/20
+[1m92/92[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m74s[0m 796ms/step - accuracy: 0.9734 - loss: 0.0872 - val_accuracy: 0.6294 - val_loss: 1.3012
+Epoch 14/20
+[1m92/92[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m74s[0m 801ms/step - accuracy: 0.9826 - loss: 0.0711 - val_accuracy: 0.6649 - val_loss: 1.2437
+WARNING:absl:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`.
+Model trained and saved as flower_model.h5

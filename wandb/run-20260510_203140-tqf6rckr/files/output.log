@@ -1,0 +1,24 @@
+WARNING:tensorflow:TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+Epoch 1/20
+[1m92/92[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m89s[0m 922ms/step - accuracy: 0.4959 - loss: 1.3303 - val_accuracy: 0.2752 - val_loss: 1.7351
+Epoch 2/20
+[1m92/92[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m85s[0m 917ms/step - accuracy: 0.5926 - loss: 1.0058 - val_accuracy: 0.3256 - val_loss: 1.6669
+Epoch 3/20
+[1m92/92[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m84s[0m 910ms/step - accuracy: 0.6836 - loss: 0.8196 - val_accuracy: 0.3501 - val_loss: 1.8195
+Epoch 4/20
+[1m92/92[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m79s[0m 854ms/step - accuracy: 0.7388 - loss: 0.6837 - val_accuracy: 0.4591 - val_loss: 1.4110
+Epoch 5/20
+[1m92/92[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m86s[0m 937ms/step - accuracy: 0.7871 - loss: 0.5751 - val_accuracy: 0.5913 - val_loss: 1.0609
+Epoch 6/20
+[1m92/92[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m85s[0m 923ms/step - accuracy: 0.8457 - loss: 0.4392 - val_accuracy: 0.5000 - val_loss: 1.4677
+Epoch 7/20
+[1m92/92[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m86s[0m 930ms/step - accuracy: 0.8804 - loss: 0.3639 - val_accuracy: 0.6485 - val_loss: 0.9751
+Epoch 8/20
+[1m92/92[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m83s[0m 901ms/step - accuracy: 0.9094 - loss: 0.2795 - val_accuracy: 0.7030 - val_loss: 0.8928
+Epoch 9/20
+[1m92/92[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m80s[0m 867ms/step - accuracy: 0.9435 - loss: 0.2018 - val_accuracy: 0.6417 - val_loss: 1.0517
+Epoch 10/20
+[1m92/92[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m84s[0m 914ms/step - accuracy: 0.9475 - loss: 0.1746 - val_accuracy: 0.6580 - val_loss: 1.1244
+Epoch 11/20
+[1m92/92[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m84s[0m 898ms/step - accuracy: 0.9653 - loss: 0.1322 - val_accuracy: 0.7016 - val_loss: 0.9079
+Model trained and saved as flower_model.h5

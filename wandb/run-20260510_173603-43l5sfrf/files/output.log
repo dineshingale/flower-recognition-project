@@ -1,0 +1,39 @@
+Downloading data from https://googleapis.com
+Traceback (most recent call last):
+  File "C:\Users\babal\OneDrive\Desktop\Coding\development\new projects\flower-recognition-project\venv\Lib\site-packages\keras\src\utils\file_utils.py", line 385, in get_file
+    urlretrieve(origin, download_target, DLProgbar())
+  File "C:\Users\babal\AppData\Local\Programs\Python\Python312\Lib\urllib\request.py", line 240, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+                            ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\babal\AppData\Local\Programs\Python\Python312\Lib\urllib\request.py", line 215, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\babal\AppData\Local\Programs\Python\Python312\Lib\urllib\request.py", line 521, in open
+    response = meth(req, response)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\babal\AppData\Local\Programs\Python\Python312\Lib\urllib\request.py", line 630, in http_response
+    response = self.parent.error(
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\babal\AppData\Local\Programs\Python\Python312\Lib\urllib\request.py", line 559, in error
+    return self._call_chain(*args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\babal\AppData\Local\Programs\Python\Python312\Lib\urllib\request.py", line 492, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "C:\Users\babal\AppData\Local\Programs\Python\Python312\Lib\urllib\request.py", line 639, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\babal\OneDrive\Desktop\Coding\development\new projects\flower-recognition-project\main.py", line 48, in <module>
+    train_model()
+  File "C:\Users\babal\OneDrive\Desktop\Coding\development\new projects\flower-recognition-project\main.py", line 23, in train_model
+    engine.download_data()
+  File "C:\Users\babal\OneDrive\Desktop\Coding\development\new projects\flower-recognition-project\src\data_engine.py", line 13, in download_data
+    self.data_dir = tf.keras.utils.get_file('flower_photos', origin=self.dataset_url, untar=True)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\babal\OneDrive\Desktop\Coding\development\new projects\flower-recognition-project\venv\Lib\site-packages\keras\src\utils\file_utils.py", line 387, in get_file
+    raise Exception(error_msg.format(origin, e.code, e.msg))
+Exception: URL fetch failure on https://googleapis.com: 404 -- Not Found

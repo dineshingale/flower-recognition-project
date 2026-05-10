@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+tensorflow
+numpy
+pillow
+python-multipart
+pandas
+scikit-learn
+wandb
+flower_model.h5

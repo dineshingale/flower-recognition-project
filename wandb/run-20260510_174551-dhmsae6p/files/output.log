@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "C:\Users\babal\OneDrive\Desktop\Coding\development\new projects\flower-recognition-project\main.py", line 48, in <module>
+    train_model()
+  File "C:\Users\babal\OneDrive\Desktop\Coding\development\new projects\flower-recognition-project\main.py", line 24, in train_model
+    df = engine.create_metadata_df()
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\babal\OneDrive\Desktop\Coding\development\new projects\flower-recognition-project\src\data_engine.py", line 39, in create_metadata_df
+    raise ValueError(f"No images found in {base_path}. Check folder structure!")
+ValueError: No images found in C:\Users\babal\.keras\datasets\flower_photos. Check folder structure!

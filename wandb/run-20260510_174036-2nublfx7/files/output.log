@@ -1,0 +1,20 @@
+Downloading data from https://storage.googleapis.com/download.tensorflow.org/example_images/flower_photos.tgz
+[1m228813984/228813984[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m87s[0m 0us/step
+Traceback (most recent call last):
+  File "C:\Users\babal\OneDrive\Desktop\Coding\development\new projects\flower-recognition-project\main.py", line 48, in <module>
+    train_model()
+  File "C:\Users\babal\OneDrive\Desktop\Coding\development\new projects\flower-recognition-project\main.py", line 25, in train_model
+    train_df, val_df = engine.clean_and_split(df)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\babal\OneDrive\Desktop\Coding\development\new projects\flower-recognition-project\src\data_engine.py", line 43, in clean_and_split
+    train_df, val_df = train_test_split(
+                       ^^^^^^^^^^^^^^^^^
+  File "C:\Users\babal\OneDrive\Desktop\Coding\development\new projects\flower-recognition-project\venv\Lib\site-packages\sklearn\utils\_param_validation.py", line 218, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\babal\OneDrive\Desktop\Coding\development\new projects\flower-recognition-project\venv\Lib\site-packages\sklearn\model_selection\_split.py", line 2924, in train_test_split
+    n_train, n_test = _validate_shuffle_split(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\babal\OneDrive\Desktop\Coding\development\new projects\flower-recognition-project\venv\Lib\site-packages\sklearn\model_selection\_split.py", line 2504, in _validate_shuffle_split
+    raise ValueError(
+ValueError: With n_samples=0, test_size=0.2 and train_size=None, the resulting train set will be empty. Adjust any of the aforementioned parameters.
